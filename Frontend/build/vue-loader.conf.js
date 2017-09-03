@@ -9,6 +9,12 @@ module.exports = {
       : config.dev.cssSourceMap,
     extract: isProduction
   }),
+  loaders: [
+    {
+        test: /\.scss$/,
+        loader: "webpack-sass"
+    }
+  ],
   transformToRequire: {
     video: 'src',
     source: 'src',

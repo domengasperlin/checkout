@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import Pay from '@/components/Pay'
+import Fly from '@/components/Fly'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/pay',
-      name: 'Pay',
-      component: Pay
+      path: '/fly',
+      name: 'fly',
+      component: Fly
     }
   ]
 })
